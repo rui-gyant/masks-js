@@ -1,6 +1,6 @@
 {
   "name": "masks-npm-mvp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NPM package that exports functions to mask values.",
   "main": "index.js",
   "scripts": {
