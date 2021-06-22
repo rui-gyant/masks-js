@@ -1,8 +1,9 @@
 module.exports = {
   env: {
-    browser: true,
+    browser: false,
     commonjs: true,
     es2021: true,
+    mocha: true,
   },
   extends: [
     'airbnb-base',
@@ -11,5 +12,6 @@ module.exports = {
     ecmaVersion: 12,
   },
   rules: {
+    'no-console': 'off',
   },
 };
